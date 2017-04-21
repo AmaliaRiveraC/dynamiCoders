@@ -1,0 +1,15 @@
+header{
+  text-align: center;
+}
+#kary{
+  width: 20%;
+  border-radius: 50%;
+  position: relative;
+}
+.parrafoK{
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  text-align: justify;
+  margin-left: 3%;
+}
