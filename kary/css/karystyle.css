@@ -5,6 +5,7 @@ header{
   width: 20%;
   border-radius: 50%;
   position: relative;
+  margin-left: 20%;
 }
 .parrafoK{
   display: inline-block;
@@ -12,4 +13,7 @@ header{
   width: 30%;
   text-align: justify;
   margin-left: 3%;
+}
+.seccionK{
+
 }
