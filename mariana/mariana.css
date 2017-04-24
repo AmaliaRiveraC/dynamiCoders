@@ -1,0 +1,19 @@
+.titulosM {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+img {
+	margin-top: 20px;
+	margin-left: 70px;
+	position: relative;
+}
+
+article {
+	margin-top: 40px;
+	margin-left: 30px;
+	position: absolute;
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+}
+
