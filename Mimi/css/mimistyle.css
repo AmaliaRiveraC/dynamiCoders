@@ -1,0 +1,149 @@
+header{
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  padding: 10px;
+  background-color: #848082;  /*#F9C4DA rosita*/
+  color: #F9C4DA;
+}
+
+#tituloImagen{
+  width: 70px;
+  height: 40px;
+}
+.fotoN{
+  display: inline-block;
+  position: absolute;
+  top:100px;
+  left: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  filter: grayscale(20%);
+}
+
+h2{
+  display: inline-block;
+  position: relative;
+  top:235px;
+  margin-left: 10px;
+  margin-top: 40px;
+  width: 260px;
+  padding: 5px;
+  color: #F9C4DA; /*rosita*/
+  font-style: oblique;
+  background-color:#848082;
+  /*opacity:.8; crea un tipo de transparencia*/
+	font-weight:bold;
+}
+
+h2:hover{
+  color: white;
+}
+
+.biografia{
+  display: inline-block;
+  position: relative;
+  top: 230px;
+  margin-left: 10px;
+  width: 300px;
+  color: grey;
+  background-color: white;
+  font-size: 20px;
+}
+
+.biografia:hover{
+  color: #F9C4DA;
+  background-color:grey;
+}
+
+a{
+  position: fixed;
+  font-family: 'Pacifico', cursive;
+  color: #F9C4DA;
+  background-color: white;
+  font-size: 50px;
+  top: 110px;
+  right: 300px;
+}
+
+a:hover {
+  color: #848082;
+}
+#correr{
+  position: relative;
+  float: left;
+  left: 450px;
+  bottom: 200px;
+  width: 240px;
+  height: 130px;
+  border-radius: 60px;
+  filter: contrast(80%);
+}
+
+#bailar{
+  position: relative;
+  float: left;
+  left: 890px;
+  top: -180px;
+  width: 160px;
+  height: 240px;
+}
+
+#bici{
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 110px;
+  width: 240px;
+  height: 130px;
+  border-radius: 60px;
+}
+
+#cantar{
+  position: relative;
+  float: left;
+  left: 190px;
+  bottom: 90px;
+  width: 240px;
+  height: 130px;
+  border-radius: 60px;
+  filter: brightness(80%);
+}
+
+#cocinar{
+  position: relative;
+  float: right;
+  right: 110px;
+  top: 90px;
+  width: 240px;
+  height: 130px;
+  border-radius: 60px;
+  filter: contrast(80%);
+}
+
+#dormir{
+  position: relative;
+  float: right;
+  right: 380px;
+
+  width: 240px;
+  height: 130px;
+}
+
+#amores{
+  position: absolute;
+  float: left;
+  left: 540px;
+  bottom: 225px;
+  width: 240px;
+  height: 130px;
+  border-radius: 60px;
+  filter: contrast(80%);
+}
+
+footer{
+  background-color: #F48E64;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
