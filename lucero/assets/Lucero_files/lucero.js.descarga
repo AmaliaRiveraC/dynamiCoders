@@ -1,0 +1,58 @@
+var cuerpoDocumentoL = document.getElementById('lucero');
+
+
+cuerpoDocumentoL.className = "cuerpo";
+cuerpoDocumentoL.id = "cuerpoL";
+
+
+function primeraSeccion() {
+    var encabezado= document.createElement('header');
+    var titulo = document.createElement('h1');
+    var imagenL = document.createElement('img');
+    var regreso = document.createElement('a');
+
+    encabezado.className = "primera";
+    encabezado.id = "primeraL";
+    titulo.id = "tituloL";
+    titulo.innerText = "Lucero Ramos Lazaro.";
+    imagenL.src = "assets/lucero.jpg";
+    imagenL.className = "lucero";
+    imagenL.id = "luceroL";
+    regreso.href = "../index.html";
+    regreso.id = "atrasL";
+    regreso.innerText = "Atras";
+
+    encabezado.appendChild(titulo);
+    encabezado.appendChild(imagenL);
+    encabezado.appendChild(regreso);
+    cuerpoDocumentoL.appendChild(encabezado);
+
+
+};
+ primeraSeccion();
+function segundaSeccion() {
+  var segundaSeccion = document.createElement('section');
+  var div= document.createElement('div');
+  var subtirulo = document.createElement('h2');
+  segundaSeccion.appendChild(div);
+  div.appendChild(subtirulo);
+  subtirulo.innerText = "pasatiempo";
+  cuerpoDocumentoL.appendChild(segundaSeccion);
+}
+segundaSeccion();
+
+
+
+
+//cuerpoDocumentoL.appendChild(contenedorL);
+// contenedorL.appendChild(spanL);
+// contenedorL.className = "contenedorL";
+// contenedorL.id = "descripcion";
+// spanL.innerText ="Lucero Ramos Lazaro nacio en Xalapa, Veracruz, es la segunda de tres hijos, es de complexión delgada, mide 1.63 m, le gusta comer tacos al pastor' y la comida tipica de Mexico.";
+//
+//   cuerpoDocumentoL.appendChild(contenedorL);
+//   contenedorL.appendChild(spanL);
+//   spanL.innerText = " prueba"
+//
+//   cuerpoDocumentoL.appendChild(piePaginaL);
+//   piePaginaL.innerText = "© Copyright. /n Lucero Ramos Lazaro"
