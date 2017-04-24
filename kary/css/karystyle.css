@@ -21,6 +21,7 @@ header{
   display: inline-block;
   position: absolute;
   width: 30%;
+  height: 100px;
   height: 300px;
   text-align: justify;
   margin-left: 6%;
@@ -36,7 +37,6 @@ header{
   text-align: center;
 }
 .hobbiesK{
-  position: relative;
   font-size: 30px;
   text-align: center;
 }
