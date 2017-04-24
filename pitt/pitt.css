@@ -1,0 +1,51 @@
+body{
+
+ margin: 0;
+ padding: 0;
+
+}
+header{
+  background-color: #5BC7BD;
+  padding: 20px;
+  margin: 0;
+}
+
+h1{
+  color: #747676;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+section{
+  position: relative;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  padding: 80px;
+  position:absolute;
+  display: inline-block;
+
+
+}
+
+article{
+
+ float: left;
+ left: 200px;
+ position:absolute;
+ margin: 120px;
+ font-family: 'Josefin Sans', sans-serif;
+ text-align: center;
+}
+.hobbies{
+  padding: 10px;
+  position:absolute;
+  display: inline-block;
+  top: 200px;
+
+}

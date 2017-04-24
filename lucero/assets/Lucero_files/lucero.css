@@ -1,0 +1,45 @@
+body{
+  background-image: url("assets/fondo1.jpg");
+  margin: 2%;
+  height:100%;
+  width:auto;
+}
+#cuerpoL{
+  position: fixed;
+  width: 96%;
+  background-color: #F76D92;
+  height: auto;
+  padding: 2%;
+
+}
+#tituloL{
+  position: absolute;
+  float:none;
+  left: 90%;
+  top: 85%;
+  bottom: 2%;
+  left: 38%;
+  color: #1A040A;
+  font-size: 5em;
+
+
+}
+.primera{
+  overflow: hidden;
+}
+.lucero{
+  width: 30%;
+  height: 50%;
+  border-radius: 50%;
+  border: 2%;
+  border-color: #1A040A;
+  border-style: double;
+  margin-left: 35%;
+
+}
+#atrasL #tituloL{
+  position: absolute;
+  float: right;
+  top: 90%;
+  left: 50%;
+}

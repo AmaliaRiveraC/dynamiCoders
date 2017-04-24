@@ -1,0 +1,52 @@
+*{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "calibri";
+}
+.tituloS{
+  background-color: #C40A13;
+  color:white;
+  top:0px;
+  left: 0px;
+  padding: 3%;
+}
+
+.biografiaS{
+  margin-top: 1%;
+  overflow: hidden;
+  /*border: 5px solid Black;*/
+
+}
+.imagenS{
+  display: inline-block;
+  float: left;
+  border-radius: 10% 20%;
+  width: 20%;
+  height: 20%;
+  margin-left: 1%;
+  border: 3px solid #C40A13;
+}
+.parrafoS{
+  width: 50%;
+  height: 40%;
+  padding: 10px;
+  padding-left: 40px;
+  /*padding-left: 40px;*/
+  float: left;
+  display: inline-block;
+  color: #067E6A;
+  text-align: justify;
+}
+
+#tituloHobbiesS{
+  color: #C40A13;
+}
+.hobbiesS img{
+  float:left;
+  width: 25%;
+  height: 20%;
+  margin:2% 1%;
+  border: 3px solid #C40A13;
+  border-radius: 50% 50%;
+}
