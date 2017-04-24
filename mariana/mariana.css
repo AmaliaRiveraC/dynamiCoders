@@ -3,17 +3,55 @@
 	text-align: center;
 }
 
+.me {
+	margin: 0 auto;
+	padding:15px;
+	width: 200px;
+	color: white;
+	background-color: black;
+}
+
+span{
+	margin: 50px;
+}
+
 img {
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-left: 70px;
 	position: relative;
 }
 
+.pic {
+	margin-top: 50px;
+	border-style: dashed; border-width: 1px;
+}
+
 article {
-	margin-top: 40px;
-	margin-left: 30px;
+	margin: 40px 100px 20px 30px;
+	text-align: justify;
 	position: absolute;
 	display: inline-block;
 	font-family: 'Indie Flower', cursive;
 }
 
+.centro {
+	text-align: center;
+}
+
+.hb {
+	margin-top: 20px;
+}
+
+div {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+div img {
+	width: 130px;
+	margin: 10px;
+}
+
+.esp {
+	margin-bottom: 50px;
+}
