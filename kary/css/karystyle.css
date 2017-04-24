@@ -1,19 +1,50 @@
+body{
+  font-family: 'Dosis', sans-serif;
+}
 header{
   text-align: center;
+  background: #7FD6E2;
+  padding: 1px;
+}
+.flor{
+  margin:50px;
+  width: 5%;
 }
 #kary{
   width: 20%;
   border-radius: 50%;
   position: relative;
   margin-left: 20%;
+  border: 10px solid #7FD6E2;
 }
 .parrafoK{
   display: inline-block;
   position: absolute;
   width: 30%;
+  height: 300px;
   text-align: justify;
-  margin-left: 3%;
+  margin-left: 6%;
+  font-size: 18px;
 }
-.seccionK{
-
+.seccionK, .seccionIconoK{
+    margin-top:3%;
+}
+.seccionIconoK{
+  display: inline-block;
+  width: 50%;
+  margin-left: 30%;
+  text-align: center;
+}
+.hobbiesK{
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
+.icoHobbiesK{
+  padding: 10px;
+}
+.footerK{
+  color:#BFBEBE;
+  text-align: right;
+  padding: 10px;
 }
