@@ -1,0 +1,67 @@
+#fotoAmalia {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.datosA {
+	font-family: 'Playfair Display', serif;
+	font-family: 'Ranga', cursive;
+}
+
+#contenedorBiografiaA{
+	text-align: justify;
+	display: inline-block;
+	width: 500px;
+	font-size: 23px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFFF00;
+}
+
+#presentacionA {
+	text-align: center;
+	background-color: #665D1D;
+}
+
+#nombreA {
+	font-size: 40px;
+	text-align: center;
+	color: #FFFF00;
+	background-color: #5e2129;
+	padding-bottom: 3px;
+}
+
+#hobbyA {
+	background-color: #5e2129;
+	color: #FFFF00;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.listaA {
+	font-size: 20px;
+}
+
+#tituloHobbyA {
+	font-size: 24px;
+	padding: 30px;
+}
+
+#cineA {
+	width: 100px;
+	margin: 30px;
+}
+#bailandoA {
+	height: 255px;
+}
+
+li {
+	font-size: 24px;
+	border-radius: 300px;
+	display: inline-block;
+	list-style-type: none;
+
+}
